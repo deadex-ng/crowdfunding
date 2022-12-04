@@ -53,17 +53,54 @@ Our project use the following technologies:
 
 #### Link To Live App: [https://crowdfunding-ui-t5pk.vercel.app/](https://crowdfunding-ui-t5pk.vercel.app/)
 
-#### Note that this app was developed and tested in [Brave](https://brave.com/download/) browser, it will not work well in other browsers.
+#### Note that this app was developed and tested in [Brave](https://brave.com/download/) browser using [metamask](https://metamask.io/download/), it will not work well in other browsers and wallets.
 
-When you visit the platform, you'll land on the front page as shown below. If you don't see the table, give it a mean to load. The table loads data from the Polygon Mumbai testnet.
+#### Home Page
+
+When you visit the platform, you'll land on the front page as shown below. If you don't see the table, give it a minute to load. The table loads data from the Polygon Mumbai testnet.
 
 ![HomePage](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/banner1.PNG)
 
 The table shows the projects that have registered on our platform to raise funds for their project.
 
+
+
+- `Get Started:`Clicking this button prompts you to connect your `metamask` wallet to the platform. You can make donations or register a project on the platform only when you connect your `metamask` wallet.
 - `HASH STRING:` This is the unique `ipfs` hash containing the details of the project. This value is set by the project owner when he/she is registering the project on our platform.`Click` on any of the `HASH STRINGS` links in the table to see the project details. 
 - `AMOUNT TO RAISE:` This is the amount of Eth that the project wants to raise. This value is set by the project owner when he/she is registering the project on our platform.
 - `AMOUNT DONATED:` This is the current amount that has been donated to the project. When a donation is made to a project, this value automatically updates. If you make a donation, just wait for some seconds for the value to update.
 - `COUNT MILESTONE`: This value points to the current [milestone](#milestones) in the project. An  `empty` field means no milestone has been set. If the value is `1`, it means the project owner has set the first milestone. This is the same for `2` and `3`. 
 - `NUMBER OF DONORS:` This shows how many unique people have currently donated to the project. Although a donor can make multiple donations to a project, we only count him/her once.
-- `ACTION:` This is the button users `click` to make a donation to a project. 
+- `ACTION:` This is the button users `click` to make a donation to a project. To make a donation, the user first needs to connect his/her `metamask` wallet to the site. If you click `Donate` when you haven't connected your wallet, it redirects you to connect your `metamask` wallet. Once your wallet is connected, you can make donations. 
+
+#### Connect Wallet
+
+To connect the your metamask wallet to the site, click on the `Get Started` button. This will pop up metamask and ask you to connect your wallet to the site.
+
+![](C:\Users\USER\Pictures\connecting.PNG)
+
+Select the account(s) you would like to use once connected to the platform. 
+
+![](C:\Users\USER\Pictures\connecting2.PNG)
+
+Click `Connect` to connect the account(s) to the platform.
+
+![](C:\Users\USER\Pictures\connected.PNG)
+
+Once you are connected, you should see your account address on the page.
+
+#### Make a Donation
+
+You need to be [connected](#Connect-Wallet) to make a donation. Click on the `Donate` button of the project you would like to donate to. This will pop up a metamask window with all the transaction details filled in. An account can only make a donation of `0.1 Matic`
+
+![](C:\Users\USER\Pictures\donate.PNG)
+
+On the metamask window,  scroll down and click `Confirm`. 
+
+Wait a minute for the donation to be reflected on the table.
+
+![](C:\Users\USER\Pictures\donated.PNG)
+
+Yay 🥳🎊  You have successfully made a donation.
+
+#### Create a Project
