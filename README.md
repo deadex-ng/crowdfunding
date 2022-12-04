@@ -77,15 +77,15 @@ The table shows the projects that have registered on our platform to raise funds
 
 To connect the your metamask wallet to the site, click on the `Get Started` button. This will pop up metamask and ask you to connect your wallet to the site.
 
-![](C:\Users\USER\Pictures\connecting.PNG)
+![](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/connecting.PNG)
 
 Select the account(s) you would like to use once connected to the platform. 
 
-![](C:\Users\USER\Pictures\connecting2.PNG)
+![](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/connecting2.PNG)
 
 Click `Connect` to connect the account(s) to the platform.
 
-![](C:\Users\USER\Pictures\connected.PNG)
+![](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/connected.PNG)
 
 Once you are connected, you should see your account address on the page.
 
@@ -93,13 +93,13 @@ Once you are connected, you should see your account address on the page.
 
 You need to be [connected](#Connect-Wallet) to make a donation. Click on the `Donate` button of the project you would like to donate to. This will pop up a metamask window with all the transaction details filled in. An account can only make a donation of `0.1 Matic`
 
-![](C:\Users\USER\Pictures\donate.PNG)
+![](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/donate.PNG)
 
 On the metamask window,  scroll down and click `Confirm`. 
 
 Wait a minute for the donation to be reflected on the table.
 
-![](C:\Users\USER\Pictures\donated.PNG)
+![](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/donated.PNG)
 
 Yay 🥳🎊  You have successfully made a donation.
 
