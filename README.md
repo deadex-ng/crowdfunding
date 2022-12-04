@@ -66,4 +66,4 @@ The table shows the projects that have registered on our platform to raise funds
 - `AMOUNT DONATED:` This is the current amount that has been donated to the project. When a donation is made to a project, this value automatically updates. If you make a donation, just wait for some seconds for the value to update.
 - `COUNT MILESTONE`: This value points to the current [milestone](#milestones) in the project. An  `empty` field means no milestone has been set. If the value is `1`, it means the project owner has set the first milestone. This is the same for `2` and `3`. 
 - `NUMBER OF DONORS:` This shows how many unique people have currently donated to the project. Although a donor can make multiple donations to a project, we only count him/her once.
-- `ACTION:` This is the button users click to make a donation to a project. 
+- `ACTION:` This is the button users `click` to make a donation to a project. 
