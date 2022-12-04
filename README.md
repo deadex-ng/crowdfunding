@@ -111,7 +111,9 @@ Yay 🥳🎊  You have successfully made a donation to a project.
 
 You need to be [connected](#Connect-Wallet) to create a project on our platform. Click on `Add Campaign` to add your project. This will pop up a form to enter your project details.
 
-![](C:\Users\USER\Pictures\addcampaign.PNG)
+![](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/addcampaign.PNG)
+
+After you click `Submit`, give it a minute to process the tranaction on the blockchain. 
 
 - `Hash String:` This is the ipfs `CID`. We encourage you to have a pdf file containing all your project details. Upload this file to ipfs and copy the file `CID`. Paste the CID into the `Hash String` field.
 - `Amount to Raise:` This is the amount you plan to raise for your project. In other cases, the `amount of donations` can exceed the `Amount to Raise`. This field excepts the amount in `Wei`. 
