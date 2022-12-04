@@ -57,7 +57,7 @@ Our project use the following technologies:
 
 When you visit the platform, you'll land on the front page as shown below. If you don't see the table, give it a mean to load. The table loads data from the Polygon Mumbai testnet.
 
-![](C:\Users\USER\Documents\polygon_projects\chumma\images\banner.PNG)
+![HomePage](https://raw.githubusercontent.com/deadex-ng/crowdfunding/main/images/banner.PNG)
 
 The table shows the projects that have registered on our platform to raise funds for their project.
 
