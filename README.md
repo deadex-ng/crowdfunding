@@ -49,5 +49,18 @@ Our project use the following technologies:
 
 ## How it works
 
-Our project use the following technologies:
+#### Link To Live App: [https://crowdfunding-ui-t5pk.vercel.app/](https://crowdfunding-ui-t5pk.vercel.app/)
+
+#### Note that this app was developed and tested in [Brave](https://brave.com/download/) browser, it will not work well in other browsers.
+
+When you visit the platform, you'll land on the front page as shown below. If you don't see the table, give it a mean to load. The table loads data from the Polygon Mumbai testnet.
+
+![](C:\Users\USER\Documents\polygon_projects\chumma\images\banner.PNG)
+
+The table shows the projects that have registered on our platform to raise funds for their project.
+
+- `HASH STRING:` This is the unique `ipfs` hash containing the details of the project. This value is set by the project owner when he/she is registering the project on our platform.`Click` on any of the `HASH STRINGS` links in the table to see the project details. 
+- `AMOUNT TO RAISE:` This is the amount of Eth that the project wants to raise. This value is set by the project owner when he/she is registering the project on our platform.
+- `AMOUNT DONATED:` This is the current amount that has been donated to the project. When a donation is made to a project, this value automatically updates. If you make a donation, just wait for some seconds for the value to update.
+- `COUNT MILESTONE`: This value points to the current [milestone](#milestones) in the project.
 
