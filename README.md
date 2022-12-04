@@ -24,13 +24,15 @@ We have developed a donation-based crowdfunding platform. Any user can connect t
 
 ### funding fee
 
-To register for a new crowdfunding campaign, the owner pays a small fee of 0.001 ether, to the platform.
+To register for a new crowdfunding project, the owner pays a small fee of 0.001 ether, to the platform.
 
 ### milestones
 
-These are provable goals set by the campaign owner over a specific period of time. They enable the release/withdraw of funds. A campaign has a maximum of three milestones.
+These are provable goals set by the project owner over a specific period of time. They enable the release/withdraw of funds. A project has a maximum of three milestones.
 
-When each milestone is reached and accepted by a ratio of two thirds (2/3) of the donors through voting , then a portion of the funds is released to facilitate project progress. 
+When each milestone is reached and accepted by a ratio of two thirds (2/3) of the donors through voting , then a portion of the funds is released to project owner to facilitate project progress. 
+
+A second second milestone cannot be set if the specified period for the first milestone is not over. The case is the same if the project owner tries to set a third milestone while the second milestone is still in progress. 
 
 ### governance
 
@@ -62,5 +64,6 @@ The table shows the projects that have registered on our platform to raise funds
 - `HASH STRING:` This is the unique `ipfs` hash containing the details of the project. This value is set by the project owner when he/she is registering the project on our platform.`Click` on any of the `HASH STRINGS` links in the table to see the project details. 
 - `AMOUNT TO RAISE:` This is the amount of Eth that the project wants to raise. This value is set by the project owner when he/she is registering the project on our platform.
 - `AMOUNT DONATED:` This is the current amount that has been donated to the project. When a donation is made to a project, this value automatically updates. If you make a donation, just wait for some seconds for the value to update.
-- `COUNT MILESTONE`: This value points to the current [milestone](#milestones) in the project.
-
+- `COUNT MILESTONE`: This value points to the current [milestone](#milestones) in the project. An  `empty` field means no milestone has been set. If the value is `1`, it means the project owner has set the first milestone. This is the same for `2` and `3`. 
+- `NUMBER OF DONORS:` This shows how many unique people have currently donated to the project. Although a donor can make multiple donations to a project, we only count him/her once.
+- `ACTION:` This is the button users click to make a donation to a project. 
