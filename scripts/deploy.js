@@ -24,35 +24,9 @@ main()
 });
 
 
-//First deployment 
-//Compiled 7 Solidity files successfully
-//deploying the implementation contract
-//deployed the implementation contract at:  0x0A86f4b21c2D727e827B5276C7E4e78C283EF769
-//deployed the factory contract
-//deployed the factory contract t:  0xA4FE6F7DfCDbEd4cF0af65342fA8056D06373270
 
-////CONTRACT_ADDRESS = "0x3b9bA781797b57872687Ce5d5219A1A4Bc0e85ea"
-
-//Second deplyment
-//deploying the implementation contract
-//deployed the implementation contract at:  0xB6b49c449ba56C1216aF4BedAe39449240727700
-//deployed the factory contract
-//deployed the factory contract t:  0xB30820Cc0D97Bb44bA44d8F8C8099D297b32BF63
-
-//Third deployent
-//deploying the implementation contract
-//deployed the implementation contract at:  0x86a3d466D123df0940c395204a42E7aF3163b60A
-//deployed the factory contract
-//deployed the factory contract t:  0xe4c704edb5bEd6AE55C836B1971cCdF9906B04Ee
-
-//Fourth deployment
+// Final
 // deploying the implementation contract
-// deployed the implementation contract at:  0xd8309eD5Ad83EE7C4f80831d49B3BCB647C353FD
+// deployed the implementation contract at:  0x8621aCaBf0C0f5001016c28418d339d9cAF59233
 // deployed the factory contract
-// deployed the factory contract t:  0xb239230eDaB0eDb0275472a7Ec1931f7EB792034
-
-//firth deplyment
-// deploying the implementation contract
-// deployed the implementation contract at:  0x2560d32C3FF30084b6916C12F636CB6a27E09BE3
-// deployed the factory contract
-// deployed the factory contract t:  0x58D337EEe7ec0aB11f348B692bA77e92B7c50250
+// deployed the factory contract 
